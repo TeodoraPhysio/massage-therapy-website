@@ -128,3 +128,15 @@ footer a { color: #fff; }
   .about-text p { font-size: 16px; }
   .footer-inner { flex-direction: column; gap: 8px; }
 }
+
+/* Photos */
+img.photo { display: block; width: 100%; padding: 0; object-fit: cover; }
+.photo-hero { object-position: 50% 30%; height: 520px; }
+.photo-about { object-position: 50% 15%; height: 460px; }
+.photo-wide { height: 380px; object-position: 50% 35%; margin-bottom: 28px; }
+@media (max-width: 900px) { .photo-hero { height: 440px; } }
+@media (max-width: 640px) {
+  .photo-hero { height: 340px; }
+  .photo-about { height: 380px; }
+  .photo-wide { height: 240px; margin-bottom: 20px; }
+}
