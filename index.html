@@ -3,154 +3,131 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Still Waters Massage Therapy</title>
-  <meta name="description" content="Relaxing, therapeutic massage to ease tension, relieve pain and restore balance. Book your session today." />
+  <title>Teodora Dimova Physiotherapy – Physio-led massage in Brentwood</title>
+  <meta name="description" content="HCPC-registered physiotherapist offering sports and deep tissue massage, recovery massage and lymphatic drainage as home visits in Brentwood, Essex." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <header>
-    <div class="container nav">
-      <a href="#" class="logo">Still Waters</a>
-      <ul>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#testimonials">Reviews</a></li>
-        <li><a href="#book">Contact</a></li>
-      </ul>
-      <a href="#book" class="btn btn-outline">Book now</a>
-    </div>
+  <header class="container site-header">
+    <a href="#top" class="logo">Teodora Dimova <span>Physiotherapy</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav id="site-nav">
+      <a href="#services">Treatments</a>
+      <a href="#about">About</a>
+      <a href="#prices">Prices</a>
+      <a href="#book" class="btn btn-small">Book a visit</a>
+    </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-content">
-        <span class="eyebrow">Massage Therapy &amp; Wellness</span>
-        <h1>Relax your body. Restore your mind.</h1>
-        <p>Personalised, therapeutic massage to melt away tension, ease aches and pains, and help you feel like yourself again.</p>
-        <a href="#book" class="btn">Book your session</a>
+    <section id="top" class="container hero">
+      <div class="hero-text">
+        <p class="eyebrow">HCPC-registered physiotherapist · Mobile visits in Brentwood</p>
+        <h1>Massage with a physiotherapist’s understanding of your body</h1>
+        <p class="lead">Sports and deep tissue massage, recovery after surgery and lymphatic drainage — brought to your home in Brentwood and nearby. 15 years of experience with clients in Mayfair, Knightsbridge and Marylebone.</p>
+        <div class="actions">
+          <a href="#book" class="btn">Book a home visit</a>
+          <a href="#services" class="btn btn-outline">See treatments</a>
+        </div>
+      </div>
+      <div class="photo photo-hero">[YOUR PHOTO — a warm, natural portrait of you with your massage table, taken in daylight]</div>
+    </section>
+
+    <section class="band">
+      <div class="container stats">
+        <div><strong>15 years</strong><span>self-employed since 2011</span></div>
+        <div><strong>HCPC</strong><span>registered physiotherapist, PH99672</span></div>
+        <div><strong>Athletes</strong><span>football, rugby, hockey and marathon runners</span></div>
+        <div><strong>At home</strong><span>I bring the table and everything else</span></div>
       </div>
     </section>
 
-    <section id="services" class="services">
-      <div class="container">
-        <div class="section-head">
-          <h2>Our Treatments</h2>
-          <p>Every session is tailored to you, whether you need deep relief or simply some time to unwind.</p>
+    <section id="services" class="container section">
+      <h2>Treatments</h2>
+      <p class="intro">Every session is tailored on the day — I ask how you’re feeling, check what’s tight or sore, and adjust the pressure and techniques to suit.</p>
+      <div class="grid cards">
+        <div class="card">
+          <h3>Sports &amp; deep tissue massage</h3>
+          <p>My speciality. Firm, targeted work with stretching and joint mobilisation for training, tight muscles and desk-bound backs.</p>
         </div>
-        <div class="grid">
-          <article class="card">
-            <div class="icon">🌿</div>
-            <h3>Swedish Massage</h3>
-            <p>Long, flowing strokes to calm the nervous system, improve circulation and leave you deeply relaxed.</p>
-            <div class="price">60 min · £55</div>
-          </article>
-          <article class="card">
-            <div class="icon">💪</div>
-            <h3>Deep Tissue</h3>
-            <p>Focused, firm pressure that targets chronic tension and knots in the deeper layers of muscle.</p>
-            <div class="price">60 min · £65</div>
-          </article>
-          <article class="card">
-            <div class="icon">🏃</div>
-            <h3>Sports Massage</h3>
-            <p>Ideal for active people: aids recovery, improves flexibility and helps prevent injury.</p>
-            <div class="price">45 min · £50</div>
-          </article>
-          <article class="card">
-            <div class="icon">🪨</div>
-            <h3>Hot Stone</h3>
-            <p>Smooth heated stones warm and loosen muscles, letting the massage work deeper with less pressure.</p>
-            <div class="price">75 min · £75</div>
-          </article>
+        <div class="card">
+          <h3>Recovery massage</h3>
+          <p>Gentle, informed care after hip replacement, cosmetic surgery or cancer treatment — always in line with your medical team’s advice.</p>
         </div>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <div class="container about-inner">
-        <div class="about-img" role="img" aria-label="Massage treatment room"></div>
-        <div>
-          <span class="eyebrow" style="color: var(--sage)">About</span>
-          <h2>Care that starts with listening</h2>
-          <p>Hi, I'm a fully qualified massage therapist with a passion for helping people move and feel better. Every treatment begins with a short consultation so I can understand your needs and adapt each session to you.</p>
-          <p>Whether you're recovering from training, carrying stress in your shoulders, or just need an hour of calm, you'll find a warm, peaceful space here.</p>
-          <div class="stats">
-            <div><strong>10+</strong><span>Years experience</span></div>
-            <div><strong>2,000+</strong><span>Sessions given</span></div>
-            <div><strong>5★</strong><span>Average rating</span></div>
-          </div>
+        <div class="card">
+          <h3>Lymphatic drainage</h3>
+          <p>Light, rhythmic massage to ease swelling and leave you feeling lighter. Body sculpting techniques coming soon.</p>
+        </div>
+        <div class="card">
+          <h3>Indian head massage</h3>
+          <p>Head, neck and shoulders for stress relief. Lovely on its own or added to a body massage.</p>
+        </div>
+        <div class="card">
+          <h3>Cupping</h3>
+          <p>Added to a sports or deep tissue session to release stubborn tension.</p>
+        </div>
+        <div class="card card-accent">
+          <h3>Not sure what you need?</h3>
+          <p>Message me what’s bothering you and I’ll suggest the right treatment.</p>
+          <a href="#book">Ask me →</a>
         </div>
       </div>
     </section>
 
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-        <div class="section-head">
-          <h2>Kind Words</h2>
-          <p>What clients say after their sessions.</p>
-        </div>
-        <div class="grid">
-          <blockquote class="quote">
-            <p>“The best massage I've ever had. My back pain has improved so much in just a few sessions.”</p>
-            <cite>— Sarah M.</cite>
-          </blockquote>
-          <blockquote class="quote">
-            <p>“Such a calm, welcoming space. I left feeling completely renewed and slept wonderfully that night.”</p>
-            <cite>— James R.</cite>
-          </blockquote>
-          <blockquote class="quote">
-            <p>“Regular sports massage has made a real difference to my running recovery. Highly recommend.”</p>
-            <cite>— Priya K.</cite>
-          </blockquote>
+    <section id="about" class="white">
+      <div class="container section about">
+        <div class="photo photo-about">[PHOTO — you at work, hands on a client’s shoulder or back]</div>
+        <div class="about-text">
+          <h2>Hi, I’m Teodora</h2>
+          <p>I trained in rehabilitation at Pleven Medical University and have been an HCPC-registered physiotherapist since 2012. For 15 years I’ve worked for myself in central London — first with home visits, then in my own practice on Wigmore Street, Welbeck Street and Berkeley Square, Mayfair.</p>
+          <p>My clients have included footballers, rugby and hockey players, marathon runners, and people recovering from surgery. What they value is massage that’s grounded in how muscles and joints really work.</p>
+          <p>I now live in Brentwood and bring that same care to clients here, in the comfort of their own homes.</p>
         </div>
       </div>
     </section>
 
-    <section id="book">
-      <div class="container">
-        <div class="booking-box">
-          <div>
-            <h2>Book a session</h2>
-            <p>Send a request and I'll get back to you within 24 hours to confirm your appointment.</p>
-            <ul class="contact-list">
-              <li>📍 12 Example Street, Your Town</li>
-              <li>📞 01234 567890</li>
-              <li>✉️ hello@example.com</li>
-              <li>🕘 Mon–Sat, 9am – 7pm</li>
-            </ul>
-          </div>
-          <form id="booking-form">
-            <div class="row">
-              <div><label for="name">Name</label><input id="name" name="name" required /></div>
-              <div><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
-            </div>
-            <div class="row">
-              <div>
-                <label for="service">Treatment</label>
-                <select id="service" name="service">
-                  <option>Swedish Massage</option>
-                  <option>Deep Tissue</option>
-                  <option>Sports Massage</option>
-                  <option>Hot Stone</option>
-                </select>
-              </div>
-              <div><label for="date">Preferred date</label><input id="date" name="date" type="date" /></div>
-            </div>
-            <div><label for="message">Anything I should know?</label><textarea id="message" name="message" rows="3"></textarea></div>
-            <button type="submit" class="btn">Request booking</button>
-            <p class="form-note" id="form-note">Thank you! Your request has been received — I'll be in touch soon.</p>
-          </form>
+    <section id="prices" class="container section">
+      <h2>Prices &amp; how it works</h2>
+      <p class="intro">Home visits in Brentwood, Shenfield, Hutton, Warley and Ingatestone. Weekday visits [YOUR HOURS, e.g. 9:30–2:30]. I bring a professional table, fresh linen and oils.</p>
+      <div class="grid prices">
+        <div class="card"><span>60 minutes</span><strong>£[PRICE]</strong></div>
+        <div class="card"><span>90 minutes</span><strong>£[PRICE]</strong></div>
+        <div class="card"><span>Block of 5 sessions</span><strong>£[PRICE]</strong></div>
+      </div>
+    </section>
+
+    <section class="tint">
+      <div class="container section">
+        <h2>What clients say</h2>
+        <div class="grid cards">
+          <div class="card quote">[A REAL REVIEW FROM A CLIENT — ask 3 regulars to leave one on Google]<cite>[First name, area]</cite></div>
+          <div class="card quote">[A REAL REVIEW FROM A CLIENT]<cite>[First name, area]</cite></div>
+          <div class="card quote">[A REAL REVIEW FROM A CLIENT]<cite>[First name, area]</cite></div>
         </div>
+      </div>
+    </section>
+
+    <section id="book" class="container section book">
+      <h2>Book a home visit</h2>
+      <p class="intro">Send me a message with the treatment you’d like and a couple of times that suit you. I usually reply the same day.</p>
+      <div class="actions">
+        <a href="https://wa.me/44XXXXXXXXXX" class="btn">WhatsApp me</a>
+        <a href="mailto:[YOUR EMAIL]" class="btn btn-outline">Email [YOUR EMAIL]</a>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container">© <span id="year"></span> Still Waters Massage Therapy · All rights reserved</div>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Teodora Dimova Physiotherapy · Brentwood, Essex</div>
+      <div>HCPC registered · Fully insured · <a href="https://instagram.com/">Instagram</a></div>
+    </div>
   </footer>
 
   <script src="script.js"></script>
