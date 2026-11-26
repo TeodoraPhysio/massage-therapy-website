@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Still Waters Massage Therapy</title>
+  <meta name="description" content="Relaxing, therapeutic massage to ease tension, relieve pain and restore balance. Book your session today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <a href="#" class="logo">Still Waters</a>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#book">Contact</a></li>
+      </ul>
+      <a href="#book" class="btn btn-outline">Book now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <span class="eyebrow">Massage Therapy &amp; Wellness</span>
+        <h1>Relax your body. Restore your mind.</h1>
+        <p>Personalised, therapeutic massage to melt away tension, ease aches and pains, and help you feel like yourself again.</p>
+        <a href="#book" class="btn">Book your session</a>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our Treatments</h2>
+          <p>Every session is tailored to you, whether you need deep relief or simply some time to unwind.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="icon">🌿</div>
+            <h3>Swedish Massage</h3>
+            <p>Long, flowing strokes to calm the nervous system, improve circulation and leave you deeply relaxed.</p>
+            <div class="price">60 min · £55</div>
+          </article>
+          <article class="card">
+            <div class="icon">💪</div>
+            <h3>Deep Tissue</h3>
+            <p>Focused, firm pressure that targets chronic tension and knots in the deeper layers of muscle.</p>
+            <div class="price">60 min · £65</div>
+          </article>
+          <article class="card">
+            <div class="icon">🏃</div>
+            <h3>Sports Massage</h3>
+            <p>Ideal for active people: aids recovery, improves flexibility and helps prevent injury.</p>
+            <div class="price">45 min · £50</div>
+          </article>
+          <article class="card">
+            <div class="icon">🪨</div>
+            <h3>Hot Stone</h3>
+            <p>Smooth heated stones warm and loosen muscles, letting the massage work deeper with less pressure.</p>
+            <div class="price">75 min · £75</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-inner">
+        <div class="about-img" role="img" aria-label="Massage treatment room"></div>
+        <div>
+          <span class="eyebrow" style="color: var(--sage)">About</span>
+          <h2>Care that starts with listening</h2>
+          <p>Hi, I'm a fully qualified massage therapist with a passion for helping people move and feel better. Every treatment begins with a short consultation so I can understand your needs and adapt each session to you.</p>
+          <p>Whether you're recovering from training, carrying stress in your shoulders, or just need an hour of calm, you'll find a warm, peaceful space here.</p>
+          <div class="stats">
+            <div><strong>10+</strong><span>Years experience</span></div>
+            <div><strong>2,000+</strong><span>Sessions given</span></div>
+            <div><strong>5★</strong><span>Average rating</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <h2>Kind Words</h2>
+          <p>What clients say after their sessions.</p>
+        </div>
+        <div class="grid">
+          <blockquote class="quote">
+            <p>“The best massage I've ever had. My back pain has improved so much in just a few sessions.”</p>
+            <cite>— Sarah M.</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Such a calm, welcoming space. I left feeling completely renewed and slept wonderfully that night.”</p>
+            <cite>— James R.</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Regular sports massage has made a real difference to my running recovery. Highly recommend.”</p>
+            <cite>— Priya K.</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="book">
+      <div class="container">
+        <div class="booking-box">
+          <div>
+            <h2>Book a session</h2>
+            <p>Send a request and I'll get back to you within 24 hours to confirm your appointment.</p>
+            <ul class="contact-list">
+              <li>📍 12 Example Street, Your Town</li>
+              <li>📞 01234 567890</li>
+              <li>✉️ hello@example.com</li>
+              <li>🕘 Mon–Sat, 9am – 7pm</li>
+            </ul>
+          </div>
+          <form id="booking-form">
+            <div class="row">
+              <div><label for="name">Name</label><input id="name" name="name" required /></div>
+              <div><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="service">Treatment</label>
+                <select id="service" name="service">
+                  <option>Swedish Massage</option>
+                  <option>Deep Tissue</option>
+                  <option>Sports Massage</option>
+                  <option>Hot Stone</option>
+                </select>
+              </div>
+              <div><label for="date">Preferred date</label><input id="date" name="date" type="date" /></div>
+            </div>
+            <div><label for="message">Anything I should know?</label><textarea id="message" name="message" rows="3"></textarea></div>
+            <button type="submit" class="btn">Request booking</button>
+            <p class="form-note" id="form-note">Thank you! Your request has been received — I'll be in touch soon.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Still Waters Massage Therapy · All rights reserved</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
